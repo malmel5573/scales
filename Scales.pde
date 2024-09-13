@@ -6,8 +6,8 @@ void setup() {
 void draw() {
    background(214, 100, 37);
 
-  for(int x = 50; x < 500; x+=75){
- for(int y = 50; y < 500; y+=75) {
+  for(int x = 500; x > 0; x-=75){
+ for(int y = 500; y > 0; y-=65) {
   
  scale(x,y);
   
@@ -16,8 +16,8 @@ void draw() {
   
   void scale(int x, int y) {
     fill(249, 100, 83);
-    noStroke();
-    //stroke(46, 100, 100);
+    //noStroke();
+    stroke(46, 100, 100);
     rect(x-53,y-53, 106, 57);
    //rect(48,47, 105,57); //rx = x-52    ry = y - 53 
    //48,47, 105,57
