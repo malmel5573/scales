@@ -1,3 +1,9 @@
+/* Melanie Lopez
+09/16/24
+Learn a workflow between a code IDE and GitHub to document and share computer programs. 
+
+Design and iteratively develop programs that combine control structures, including nested loops and compound conditionals. 2-AP-12
+*/
 void setup() {
   size(500, 500);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
